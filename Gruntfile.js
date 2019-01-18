@@ -97,5 +97,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-connect');
 
     grunt.registerTask('default', ['concat', 'jshint', 'uglify','jsdoc','copy']);
+    grunt.registerTask('test', ['concat']);
 
 };
